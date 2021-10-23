@@ -27,6 +27,13 @@ code {
     visibility: hidden;
   }
 
+
+  #BottomBar{
+
+    display: flex;
+  }
+
+
 }@media only screen and (max-width: 470px) {
 
 
