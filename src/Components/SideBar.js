@@ -12,12 +12,12 @@ const SideBar = ({}) => {
     return (
 
 
-        <div class=" h-full w-screen flex bg-gray-200 relative"  >
+        <div class=" h-full w-screen flex bg-gray-200 relative overflow-hidden"  >
 
             <div className="flex flex-row ...">
 
 
-            <div className='pl-12 pr-12'>
+            <div className='pl-12 pr-12' id ='Allcontainer'>
                 <Content/>
                 <br/>
                 <br/>

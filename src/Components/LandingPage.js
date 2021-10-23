@@ -3,6 +3,7 @@ import {useHistory} from "react-router-dom";
 import SideBar from "./SideBar";
 import Content from "./Content";
 import Newsletter from "./Newsletter";
+import Recom from "./Recom";
 
 const HomePage = ({}) => {
     const history = useHistory()
@@ -28,8 +29,10 @@ const HomePage = ({}) => {
         </div>
     </div>
 
+<SideBar/>
 
-    <SideBar/>
+
+
 
 
 </div>

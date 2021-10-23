@@ -27,5 +27,29 @@ code {
     visibility: hidden;
   }
 
+}@media only screen and (max-width: 470px) {
+
+
+#content{
+
+white-space: pre-line;
+overflow-wrap: break-word;
+
 }
+  #Allcontainer{
+    width: 75%;
+
+  }
+
+}
+@media only screen and (max-width: 370px) {
+
+
+  #Allcontainer {
+
+    padding-left: 0;
+
+  }
+}
+
 

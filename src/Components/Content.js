@@ -147,7 +147,7 @@ const Content = ({}) => {
 
     return (
 
-        <div className='break-words '>
+        <div className='break-words  ' id='content'>
             <a href="#heading_one"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#10b981" viewBox="0 0 1792 1792">
                 <path d="M1600 736v192q0 40-28 68t-68 28h-416v416q0 40-28 68t-68 28h-192q-40 0-68-28t-28-68v-416h-416q-40 0-68-28t-28-68v-192q0-40 28-68t68-28h416v-416q0-40 28-68t68-28h192q40 0 68 28t28 68v416h416q40 0 68 28t28 68z">
                 </path>
@@ -164,7 +164,7 @@ const Content = ({}) => {
             </p>
             <br/>
             <img
-                className="h-1/3 w-2/3 mx-auto"
+                className="h-1/3 w-2/3 "
                 src="https://raw.githubusercontent.com/afteracademy/nodejs-backend-architecture-typescript/master/addons/github_assets/cover-nodejs-backend.png"
                 alt="svelte logo"/>
             <br/>
@@ -250,7 +250,7 @@ const Content = ({}) => {
                 </path>
             </svg></a>
             <h1 id="heading_five"  className='text-2xl font-medium'>How to build and run this project. </h1>
-            <hr className='w-full mt-6 bg-black h-0.5'
+            <hr className='w-full mt-6 bg-black h-0.5 '
             />
             <br/>
             <h2 className='text-base'>
@@ -424,7 +424,7 @@ const Content = ({}) => {
             <h1 className='text-base'>Method and Headers</h1>
             <br/>
 
-            <div className='flex justify-end ...'
+            <div className='flex justify-end ... '
             >  <CopyToClipboard text={'POST /v1/signup/basic HTTP/1.1\n' +
             'Host: localhost:3000\n' +
             'x-api-key: GCMUDiuY5a7WvyUNt9n3QztToSHzK7Uj\n' +
