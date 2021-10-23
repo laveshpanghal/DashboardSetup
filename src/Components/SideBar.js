@@ -35,7 +35,7 @@ const SideBar = ({}) => {
 
                     <li class="hover:bg-gray-100">
                         <a
-                            href="."
+                            href="https://github.com/laveshpanghal" target="_blank" rel="noreferrer noopener"
                             class="h-16 px-6 flex flex justify-center items-center w-full
 					focus:text-orange-500">
                             <svg xmlns="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/1999/xlink"
@@ -104,7 +104,7 @@ const SideBar = ({}) => {
 
                     <li class="hover:bg-gray-100">
                         <a
-                            href="."
+                            href="https://www.linkedin.com/in/lavesh-panghal-395367208/ "target="_blank" rel="noreferrer noopener"
                             class="h-16 px-6 flex flex justify-center items-center w-full
 					focus:text-orange-500">
                             <svg className="w-5 h-5 fill-current" role="img" viewBox="0 0 256 256"

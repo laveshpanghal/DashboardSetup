@@ -3,6 +3,7 @@ import {useHistory} from "react-router-dom";
 
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import LandingPage from "./Components/LandingPage";
+import ErrorPage from "./Components/ErrorPage";
 function App() {
   return (
 
@@ -10,6 +11,8 @@ function App() {
           <Switch>
               {/*<Route exact path="/" component={HomePage}/>*/}
               <Route exact path="/" exact component={LandingPage}/>
+              <Route exact path ="/pageNotFound" component = {ErrorPage}/>
+
               {/*<Route exact path="/design" exact component={Design}/>*/}
               {/*<Route exact path="/Photography" exact component={Photography}/>*/}
               //     {/*<Route exact path="/login" component={Login}/>*/}
@@ -28,7 +31,7 @@ function App() {
               //     {/*  path="/articles/:time/:key"*/}
               //     {/*  component={GetArticle}*/}
               //     {/*/>*/}
-              //     {/*<Route component={PageNotFound}/>*/}
+
           </Switch>
 
       </Router>
