@@ -408,7 +408,7 @@ const Content = ({}) => {
                 <button onClick={()=>{alert('copied')}}>Copy </button>
             </CopyToClipboard>
                 </div>
-            <div className='whitespace-pre bg-gray-300 rounded' id='checkId'>
+            <div className='whitespace-pre bg-gray-300 rounded  border-gray-300 border-4' id='checkId'>
 
                 {ggwp}
             </div>
@@ -433,7 +433,7 @@ const Content = ({}) => {
                 <button onClick={()=>{alert('copied')}}>Copy </button>
             </CopyToClipboard>
             </div>
-            <div className='whitespace-pre bg-gray-300 rounded' >
+            <div className='whitespace-pre bg-gray-300 rounded border-gray-300 border-4' >
 
                 {text2}
 

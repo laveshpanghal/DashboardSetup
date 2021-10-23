@@ -27,9 +27,9 @@ const SideBar = ({}) => {
                 <Recom/>
 
             </div>
-            <div className='h-full w-16'>
+            <div className='h-full w-16' >
 
-            <aside
+            <aside id='sidebar'
                 class="flex flex-col items-center bg-blue-100 text-gray-900 shadow h-full absolute right-0 ">
                 <ul>
 
